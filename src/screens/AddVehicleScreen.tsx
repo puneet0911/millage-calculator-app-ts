@@ -10,6 +10,7 @@ export default function AddVehicleScreen({navigation}:any) {
 
   const handleAdd = async () => {
     // ... API logic placeholder
+    navigation.navigate('VehicleList');
     setMessage('Vehicle added! (Logic to be connected)');
     setName('');
     setType('');
