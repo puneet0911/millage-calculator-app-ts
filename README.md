@@ -42,22 +42,24 @@ cd mileage-calculator
 
 2. Setup backend:
 
-
+```
 cd backend
 npm install
 cp .env.example .env
+```
 
 # Update .env variables like MONGO_URI and JWT_SECRET
 
-npm run dev
+```npm run dev```
 
 
 3. Setup frontend:
 
+```
 cd ../millage-calculator-expo
 npm install
 npx expo start
-
+```
 
 ---
 
@@ -74,19 +76,20 @@ npx expo start
 
 ## Folder Structure
 
-```mileage-calculator/
-├─ backend/ # Node.js backend API
-├─ millage-calculator-expo/ # Expo React Native frontend
-│ ├─ src/
-│ │ ├─ api/
-│ │ ├─ components/
-│ │ ├─ navigation/
-│ │ ├─ screens/
-│ │ └─ App.tsx
-│ ├─ app.json
-│ ├─ package.json
-│ └─ tsconfig.json```
-
+```
+mileage-calculator/
+  ├─ backend/ # Node.js backend API
+  ├─ millage-calculator-expo/ # Expo React Native frontend
+  │ ├─ src/
+  │ │ ├─ api/
+  │ │ ├─ components/
+  │ │ ├─ navigation/
+  │ │ ├─ screens/
+  │ │ └─ App.tsx
+  │ ├─ app.json
+  │ ├─ package.json
+  │ └─ tsconfig.json
+```
 
 ---
 
@@ -97,8 +100,6 @@ Example `.env` file for backend:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
-
-
 
 ---
 
