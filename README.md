@@ -15,7 +15,7 @@ A full-stack mileage calculator app built with Expo React Native (TypeScript) fo
 
 ---
 
-## Tech Stack full
+## Tech Stack
 
 - Frontend: Expo React Native, TypeScript, React Navigation, Axios
 - Backend: Node.js, Express, TypeScript, MongoDB, JWT Authentication
